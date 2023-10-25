@@ -13,14 +13,14 @@ int main() {
 
         if (sabor == 1) {
 
-            acumuladorManzana += sabor; //acumuladores
+            acumuladorManzana += sabor; //acumulador
 
             paquete = kb::leerEntero("tienda donde envia el paquete \n"
                                      "1. tienda 1 \n"
                                      "2. tienda 2");
             if (paquete == 1) {
 
-                primerTienda++; //contadores
+                primerTienda++; //contador
 
             } else if (paquete == 2) {
 
